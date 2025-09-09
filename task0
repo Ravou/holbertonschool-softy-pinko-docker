@@ -1,0 +1,9 @@
+# Utilise l’image Ubuntu la plus récente
+FROM ubuntu:latest
+
+# Met à jour APT et upgrade tous les paquets
+RUN apt-get update && apt-get upgrade -y
+
+# Définit la commande par défaut : echo "Hello, World!"
+CMD ["echo", "Hello, World!"]
+
