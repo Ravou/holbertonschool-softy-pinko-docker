@@ -9,7 +9,7 @@ services:
 
   front-end:
     build:
-      context: ./task3/front-end
+      context: ./front-end
       dockerfile: Dockerfile
     image: softy-pinko-front-end:task4
     ports:
